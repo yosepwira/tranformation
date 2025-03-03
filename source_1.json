@@ -1,0 +1,102 @@
+[
+    {
+        "message_type": "2100",
+        "processing_code": "0210",
+        "amount_tran": "00937926",
+        "primary_account_number": "5839914015559054",
+        "sender_account_number": "2892387503553721",
+        "beneficiary_account_number": "2840475535244799",
+        "transmission_date_time": "0703164420",
+        "transaction_date": "0728"
+    },
+    {
+        "message_type": "2100",
+        "processing_code": "0210",
+        "amount_tran": "00100170",
+        "primary_account_number": "7379023017947028",
+        "sender_account_number": "3457001876538266",
+        "beneficiary_account_number": "2063503188317819",
+        "transmission_date_time": "1023161006",
+        "transaction_date": "0802"
+    },
+    {
+        "message_type": "2100",
+        "processing_code": "0210",
+        "amount_tran": "00302515",
+        "primary_account_number": "5321453451267724",
+        "sender_account_number": "9004865005370794",
+        "beneficiary_account_number": "2956967346799192",
+        "transmission_date_time": "0807221841",
+        "transaction_date": "0511"
+    },
+    {
+        "message_type": "2100",
+        "processing_code": "0210",
+        "amount_tran": "00569374",
+        "primary_account_number": "7330179619515308",
+        "sender_account_number": "5014497463267866",
+        "beneficiary_account_number": "7677165603021221",
+        "transmission_date_time": "0116094928",
+        "transaction_date": "1019"
+    },
+    {
+        "message_type": "2100",
+        "processing_code": "0210",
+        "amount_tran": "00015796",
+        "primary_account_number": "8974099812730840",
+        "sender_account_number": "5583907890719297",
+        "beneficiary_account_number": "4498361595909479",
+        "transmission_date_time": "1119041943",
+        "transaction_date": "1102"
+    },
+    {
+        "message_type": "2100",
+        "processing_code": "0210",
+        "amount_tran": "00908284",
+        "primary_account_number": "9494121323250591",
+        "sender_account_number": "7343699214342621",
+        "beneficiary_account_number": "5465477520789672",
+        "transmission_date_time": "1125211428",
+        "transaction_date": "0720"
+    },
+    {
+        "message_type": "2100",
+        "processing_code": "0210",
+        "amount_tran": "00484521",
+        "primary_account_number": "6009917459278338",
+        "sender_account_number": "5575119281767830",
+        "beneficiary_account_number": "0388454750347694",
+        "transmission_date_time": "0624192558",
+        "transaction_date": "0426"
+    },
+    {
+        "message_type": "2100",
+        "processing_code": "0210",
+        "amount_tran": "00295266",
+        "primary_account_number": "1461508597416199",
+        "sender_account_number": "3169461264343327",
+        "beneficiary_account_number": "9976462115244248",
+        "transmission_date_time": "0716130223",
+        "transaction_date": "1205"
+    },
+    {
+        "message_type": "2100",
+        "processing_code": "0210",
+        "amount_tran": "00383490",
+        "primary_account_number": "8486146450557008",
+        "sender_account_number": "3507635386533377",
+        "beneficiary_account_number": "3550974245396241",
+        "transmission_date_time": "0223052708",
+        "transaction_date": "0904"
+    },
+    {
+        "message_type": "2100",
+        "processing_code": "0210",
+        "amount_tran": "00798290",
+        "primary_account_number": "9733567344932078",
+        "sender_account_number": "4519471626412504",
+        "beneficiary_account_number": "5501041219026196",
+        "transmission_date_time": "0328051615",
+        "transaction_date": "1127"
+    }
+]
