@@ -1,12 +1,11 @@
 [
-    {
+    { 
         "message_type": "2100",
         "processing_code": "0210",
         "amount_tran": "00937926",
         "primary_account_number": "5839914015559054",
         "sender_account_number": "2892387503553721",
         "beneficiary_account_number": "2840475535244799",
-        "transmission_date_time": "0703164420",
         "transaction_date": "0728"
     },
     {

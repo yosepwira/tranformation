@@ -1,0 +1,53 @@
+1. Handling Missing Fields and log auditrail
+    "transaction_date": "0728"
+    remove field "transmission_date_time"
+expected result : the log will give warning the field is not found
+
+log output : 
+2025-03-03 17:49:36,165 - WARNING - Missing Field: transmission_date_time, setting default value 
+2025-03-03 17:49:36,168 - INFO - Tranformed data: {"transaction_amount": "9379.26", "primary_account_number_masked": "583991*********9054", "sender_account_number": "Mjg5MjM4NzUwMzU1MzcyMQ==", "beneficiary_account_number_masked": "284047*********4799", "transmission_date_time": "2025-03-03T17:49:36.000Z", "ingest_timestamp": "2025-03-03T17:49:36.000Z", "processing_duration": "0.17", "is_void": "true", "is_reversal": "false", "status": "COMPLETED", "source_system": "API GATEWAY"}
+
+json output : 
+{
+        "transaction_amount": "9379.26",
+        "primary_account_number_masked": "583991*********9054",
+        "sender_account_number": "Mjg5MjM4NzUwMzU1MzcyMQ==",
+        "beneficiary_account_number_masked": "284047*********4799",
+        "transmission_date_time": "2025-03-03T17:49:36.000Z",
+        "ingest_timestamp": "2025-03-03T17:49:36.000Z",
+        "processing_duration": "0.17",
+        "is_void": "true",
+        "is_reversal": "false",
+        "status": "COMPLETED",
+        "source_system": "API GATEWAY"
+    }
+
+2. Data Transformation  , Data Masking , Data Encryption, status indicator, Performance tracking, Consistent Naming  
+input : 
+    {
+        "message_type": "2100",
+        "processing_code": "0210",
+        "amount_tran": "00100170",
+        "primary_account_number": "7379023017947028",
+        "sender_account_number": "3457001876538266",
+        "beneficiary_account_number": "2063503188317819",
+        "transmission_date_time": "1023161006",
+        "transaction_date": "0802"
+    }
+
+output : 
+{
+
+        "transaction_amount": "1001.70",
+        "primary_account_number_masked": "737902*********7028",
+        "sender_account_number": "MzQ1NzAwMTg3NjUzODI2Ng==",
+        "beneficiary_account_number_masked": "206350*********7819",
+        "transmission_date_time": "2025-10-23T16:10:06.000Z",
+        "ingest_timestamp": "2025-03-03T17:49:36.000Z",
+        "processing_duration": "-20211629.83",
+        "is_void": "true",
+        "is_reversal": "false",
+        "status": "COMPLETED",
+        "source_system": "API GATEWAY"    
+}
+
